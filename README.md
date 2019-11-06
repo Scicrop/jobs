@@ -1,11 +1,10 @@
-# jobs
-Documentation about SciCrop jobs API
+# Documentation about SciCrop jobs API
 
-
-- In order to post your resume to a job offet at SciCrop, please use the url: https://engine.scicrop.com/scicrop-engine-web/api/v1/intern/post_resume , with a POST method, application/json content-type and your resume as a json object, in the POST body.
+- In order to post your resume to a job offet at SciCrop, please use the url: https://engine.scicrop.com/scicrop-engine-web/api/v1/intern/post_resume , with a **POST** method, **application/json content-type** and your resume as a **json object**, in the POST body.
 - The resume must be sent as a json object, with all keys filled with valid values.
 - Note that all dates must be expressed as numeric type in Unix epoch standard.
 - Not that degrees, programming_skills, database_skills and hobbies are arrays.
+- A correct response is expressed by **HTTP 200** code, as well as a confirmation email, with an invite to an interview.
 
 ### Resume JSON object example:
 
