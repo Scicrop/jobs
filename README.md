@@ -4,7 +4,7 @@
 - The resumè must be sent as a **json object**, with **ALL** keys filled with valid values.
 - Note that all dates must be expressed as **numeric type** in **Unix epoch** standard.
 - Note that *degrees, programming_skills, database_skills* and *hobbies* are arrays.
-- A correct response is expressed by **HTTP 200** code, as well as a confirmation email, with an invite to an interview.
+- A correct response is expressed by **HTTP 200** code.
 
 ### Resume JSON object example:
 
